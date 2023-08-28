@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/steve/source/eel4712/lab0/QuickStartTutorialFiles/SimpleLogic.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/steve/source/eel4712/lab0/SimpleLogic/db/SimpleLogic.cbx.xml
+design_name = hard_block
+design_name = SimpleLogic
+instance = comp, \Z~output\, Z~output, SimpleLogic, 1
+instance = comp, \A~input\, A~input, SimpleLogic, 1
+instance = comp, \C~input\, C~input, SimpleLogic, 1
+instance = comp, \B~input\, B~input, SimpleLogic, 1
+instance = comp, \D~input\, D~input, SimpleLogic, 1
+instance = comp, \Z~0\, Z~0, SimpleLogic, 1

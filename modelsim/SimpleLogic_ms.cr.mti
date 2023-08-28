@@ -1,0 +1,34 @@
+C:/Users/steve/source/eel4712/lab0/modelsim/SimpleLogic.vho {1 {vcom -work work -2002 -explicit -stats=none C:/Users/steve/source/eel4712/lab0/modelsim/SimpleLogic.vho
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package VITAL_Timing
+-- Loading package VITAL_Primitives
+-- Loading package cycloneiv_atom_pack
+-- Loading package cycloneiv_components
+-- Compiling entity hard_block
+-- Compiling architecture structure of hard_block
+-- Compiling entity SimpleLogic
+-- Compiling architecture structure of SimpleLogic
+
+} {} {}} C:/Users/steve/source/eel4712/lab0/modelsim/SimpleLogic_tb.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/steve/source/eel4712/lab0/modelsim/SimpleLogic_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SimpleLogic_tb
+-- Compiling architecture behavior of SimpleLogic_tb
+-- Loading package VITAL_Timing
+-- Loading package VITAL_Primitives
+-- Loading package cycloneiv_atom_pack
+-- Loading package cycloneiv_components
+-- Loading entity SimpleLogic
+** Warning: C:/Users/steve/source/eel4712/lab0/modelsim/SimpleLogic_tb.vhd(42): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/steve/source/eel4712/lab0/modelsim/SimpleLogic_tb.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/steve/source/eel4712/lab0/modelsim/SimpleLogic_tb.vhd(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/steve/source/eel4712/lab0/modelsim/SimpleLogic_tb.vhd(66): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/steve/source/eel4712/lab0/modelsim/SimpleLogic_tb.vhd(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}}

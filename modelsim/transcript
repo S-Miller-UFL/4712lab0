@@ -1,0 +1,137 @@
+# Compile of SimpleLogic.vho was successful.
+# Compile of SimpleLogic_tb.vhd was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.simplelogic_tb
+# vsim -gui work.simplelogic_tb 
+# Start time: 10:19:59 on Aug 28,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneiv.cycloneiv_atom_pack(body)
+# Loading cycloneiv.cycloneiv_components
+# Loading work.simplelogic_tb(behavior)
+# Loading work.simplelogic(structure)
+# Loading work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiv.cycloneiv_io_obuf(arch)
+# Loading cycloneiv.cycloneiv_io_ibuf(arch)
+# Loading cycloneiv.cycloneiv_lcell_comb(vital_lcell_comb)
+add wave -position end  sim:/simplelogic_tb/A
+add wave -position end  sim:/simplelogic_tb/B
+add wave -position end  sim:/simplelogic_tb/C
+add wave -position end  sim:/simplelogic_tb/D
+add wave -position end  sim:/simplelogic_tb/Z
+run -all
+# ** Note: SIMULATION FINISHED!
+#    Time: 1500 ns  Iteration: 0  Instance: /simplelogic_tb
+run -all
+run -all
+quit -sim
+# End time: 10:30:31 on Aug 28,2023, Elapsed time: 0:10:32
+# Errors: 0, Warnings: 6
+vsim -gui work.simplelogic_tb -sdftyp /UUT=C:/Users/steve/source/eel4712/lab0/SimpleLogic/simulation/modelsim/SimpleLogic_vhd.sdo
+# vsim -gui work.simplelogic_tb -sdftyp "/UUT=C:/Users/steve/source/eel4712/lab0/SimpleLogic/simulation/modelsim/SimpleLogic_vhd.sdo" 
+# Start time: 10:31:46 on Aug 28,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneiv.cycloneiv_atom_pack(body)
+# Loading cycloneiv.cycloneiv_components
+# Loading work.simplelogic_tb(behavior)
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading work.simplelogic(structure)
+# Loading work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiv.cycloneiv_io_obuf(arch)
+# Loading cycloneiv.cycloneiv_io_ibuf(arch)
+# Loading cycloneiv.cycloneiv_lcell_comb(vital_lcell_comb)
+# Loading instances from C:/Users/steve/source/eel4712/lab0/SimpleLogic/simulation/modelsim/SimpleLogic_vhd.sdo
+# Loading timing data from C:/Users/steve/source/eel4712/lab0/SimpleLogic/simulation/modelsim/SimpleLogic_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /simplelogic_tb File: C:/Users/steve/source/eel4712/lab0/modelsim/SimpleLogic_tb.vhd
+run -all
+# ** Note: SIMULATION FINISHED!
+#    Time: 1500 ns  Iteration: 0  Instance: /simplelogic_tb
+# Compile of SimpleLogic.vho was successful.
+# Compile of SimpleLogic_tb.vhd was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+run -all
+quit -sim
+# End time: 10:33:53 on Aug 28,2023, Elapsed time: 0:02:07
+# Errors: 0, Warnings: 2
+vsim -gui -sdftyp /UUT=C:/Users/steve/source/eel4712/lab0/SimpleLogic/simulation/modelsim/SimpleLogic_vhd.sdo work.simplelogic_tb
+# vsim -gui -sdftyp "/UUT=C:/Users/steve/source/eel4712/lab0/SimpleLogic/simulation/modelsim/SimpleLogic_vhd.sdo" work.simplelogic_tb 
+# Start time: 10:34:35 on Aug 28,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneiv.cycloneiv_atom_pack(body)
+# Loading cycloneiv.cycloneiv_components
+# Loading work.simplelogic_tb(behavior)
+# Loading work.simplelogic(structure)
+# Loading work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiv.cycloneiv_io_obuf(arch)
+# Loading cycloneiv.cycloneiv_io_ibuf(arch)
+# Loading cycloneiv.cycloneiv_lcell_comb(vital_lcell_comb)
+# Loading instances from C:/Users/steve/source/eel4712/lab0/SimpleLogic/simulation/modelsim/SimpleLogic_vhd.sdo
+# Loading timing data from C:/Users/steve/source/eel4712/lab0/SimpleLogic/simulation/modelsim/SimpleLogic_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /simplelogic_tb File: C:/Users/steve/source/eel4712/lab0/modelsim/SimpleLogic_tb.vhd
+# Compile of SimpleLogic.vho was successful.
+# Compile of SimpleLogic_tb.vhd was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+run -all
+# ** Note: SIMULATION FINISHED!
+#    Time: 1500 ns  Iteration: 0  Instance: /simplelogic_tb
+add wave -position end  sim:/simplelogic_tb/A
+add wave -position end  sim:/simplelogic_tb/B
+add wave -position end  sim:/simplelogic_tb/C
+add wave -position end  sim:/simplelogic_tb/D
+add wave -position end  sim:/simplelogic_tb/Z
+run -all
+vsim -gui -sdftyp /UUT=C:/Users/steve/source/eel4712/lab0/SimpleLogic/simulation/modelsim/SimpleLogic_vhd.sdo work.simplelogic_tb
+# End time: 10:35:40 on Aug 28,2023, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 2
+# vsim -gui -sdftyp "/UUT=C:/Users/steve/source/eel4712/lab0/SimpleLogic/simulation/modelsim/SimpleLogic_vhd.sdo" work.simplelogic_tb 
+# Start time: 10:35:40 on Aug 28,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneiv.cycloneiv_atom_pack(body)
+# Loading cycloneiv.cycloneiv_components
+# Loading work.simplelogic_tb(behavior)
+# Loading work.simplelogic(structure)
+# Loading work.hard_block(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiv.cycloneiv_io_obuf(arch)
+# Loading cycloneiv.cycloneiv_io_ibuf(arch)
+# Loading cycloneiv.cycloneiv_lcell_comb(vital_lcell_comb)
+# Loading instances from C:/Users/steve/source/eel4712/lab0/SimpleLogic/simulation/modelsim/SimpleLogic_vhd.sdo
+# Loading timing data from C:/Users/steve/source/eel4712/lab0/SimpleLogic/simulation/modelsim/SimpleLogic_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /simplelogic_tb File: C:/Users/steve/source/eel4712/lab0/modelsim/SimpleLogic_tb.vhd
+add wave -position end  sim:/simplelogic_tb/A
+add wave -position end  sim:/simplelogic_tb/B
+add wave -position end  sim:/simplelogic_tb/C
+add wave -position end  sim:/simplelogic_tb/D
+add wave -position end  sim:/simplelogic_tb/Z
+run -all
+# ** Note: SIMULATION FINISHED!
+#    Time: 1500 ns  Iteration: 0  Instance: /simplelogic_tb
+# End time: 10:47:09 on Aug 28,2023, Elapsed time: 0:11:29
+# Errors: 0, Warnings: 1
